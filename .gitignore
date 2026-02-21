@@ -24,3 +24,12 @@ vendor/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Project-specific
+.env
+_*
+*.tar
+coverage.txt
+debug.test
+main
+main.zip
