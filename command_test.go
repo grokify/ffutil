@@ -7,9 +7,9 @@ import (
 
 func TestCommandBuild(t *testing.T) {
 	tests := []struct {
-		name     string
-		cmd      *Command
-		contains []string
+		name        string
+		cmd         *Command
+		contains    []string
 		notContains []string
 	}{
 		{

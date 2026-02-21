@@ -63,12 +63,12 @@ type ffprobeFormat struct {
 }
 
 type ffprobeStream struct {
-	CodecType   string `json:"codec_type"`
-	CodecName   string `json:"codec_name"`
-	Width       int    `json:"width,omitempty"`
-	Height      int    `json:"height,omitempty"`
-	SampleRate  string `json:"sample_rate,omitempty"`
-	Channels    int    `json:"channels,omitempty"`
+	CodecType  string `json:"codec_type"`
+	CodecName  string `json:"codec_name"`
+	Width      int    `json:"width,omitempty"`
+	Height     int    `json:"height,omitempty"`
+	SampleRate string `json:"sample_rate,omitempty"`
+	Channels   int    `json:"channels,omitempty"`
 }
 
 // Probe returns detailed information about a media file.

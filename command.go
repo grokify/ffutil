@@ -11,32 +11,32 @@ import (
 
 // Command represents an ffmpeg command builder.
 type Command struct {
-	inputs       []inputSpec
-	outputPath   string
-	videoCodec   string
-	audioCodec   string
-	videoBitrate string
-	audioBitrate string
-	width        int
-	height       int
-	fps          int
-	crf          int
-	preset       string
-	pixelFormat  string
-	audioRate    int
-	channels     int
-	duration     float64
-	startTime    float64
-	copyVideo    bool
-	copyAudio    bool
-	noAudio      bool
-	noVideo      bool
-	overwrite    bool
-	extraArgs    []string
-	filterVideo  string
-	filterAudio  string
+	inputs        []inputSpec
+	outputPath    string
+	videoCodec    string
+	audioCodec    string
+	videoBitrate  string
+	audioBitrate  string
+	width         int
+	height        int
+	fps           int
+	crf           int
+	preset        string
+	pixelFormat   string
+	audioRate     int
+	channels      int
+	duration      float64
+	startTime     float64
+	copyVideo     bool
+	copyAudio     bool
+	noAudio       bool
+	noVideo       bool
+	overwrite     bool
+	extraArgs     []string
+	filterVideo   string
+	filterAudio   string
 	filterComplex string
-	metadata     map[string]string
+	metadata      map[string]string
 }
 
 // inputSpec represents an input file with optional parameters.
